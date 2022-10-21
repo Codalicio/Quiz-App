@@ -11,7 +11,7 @@
 <body>
     <div class="main">
         <div id="box">
-            <h2>1) This is the dummy question</h2>
+            <h2 id="quesBox">1) This is the dummy question</h2>
             <div class="row">
                 <input class="options" type="radio" value="a" id="option1" name="option">
                 <label for="option1">option 1</label>
@@ -28,7 +28,7 @@
                 <input class="options" type="radio" value="d" id="option4" name="option">
                 <label for="option4">option 4</label>
             </div>
-            <button class="btn">
+            <button class="btn" onclick="submitQuiz()">
                 Submit
             </button>
         </div>
